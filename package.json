@@ -2,9 +2,9 @@
   "name": "cosmverse-backend",
   "version": "1.0.0",
   "description": "A backend api interface for Cosmverse.",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
-    "test": "test"
+    "serve": "nodemon app.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,11 @@
   "bugs": {
     "url": "https://github.com/sgoya/cosmverse-backend/issues"
   },
-  "homepage": "https://github.com/sgoya/cosmverse-backend#readme"
+  "homepage": "https://github.com/sgoya/cosmverse-backend#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.14"
+  }
 }
