@@ -1,0 +1,19 @@
+{
+  "name": "cosmverse-backend",
+  "version": "1.0.0",
+  "description": "A backend api interface for Cosmverse.",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sgoya/cosmverse-backend.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/sgoya/cosmverse-backend/issues"
+  },
+  "homepage": "https://github.com/sgoya/cosmverse-backend#readme"
+}
